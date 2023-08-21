@@ -1,0 +1,19 @@
+{
+  "name": "linkedln-crawl",
+  "version": "1.0.0",
+  "description": "Crawl data from linkedin website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Cuong",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "json2csv": "^6.0.0-alpha.2",
+    "puppeteer": "^19.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
